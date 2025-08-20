@@ -1,6 +1,6 @@
 # CodebaseQnA
 
-**CodebaseQnA** lets you talk to your codebase in natural language. Instead of digging through files or searching manually, you can ask questions like *“Where is the `User` class defined?”* or *“How does the login function work?”* and get direct, context-aware answers from your own code.
+**CodebaseQnA** lets you talk to your codebase in natural language. Instead of digging through files or searching manually, you can ask questions like *“How can I use this function?”* or *“Where is authentication handled?”* and get direct, context-aware answers from your own code.
 
 It uses **retrieval-augmented generation (RAG)** powered by a local **Ollama LLM**, semantic embeddings, and a vector database to make your codebase conversational.
 
@@ -11,7 +11,7 @@ It uses **retrieval-augmented generation (RAG)** powered by a local **Ollama LLM
 - Get explanations, references, and code snippets directly from your files.
 - **CLI mode**: run in your terminal and chat without leaving your IDE.  
 - **GUI mode**: use the Gradio interface with syntax highlighting for a smoother reading experience.
-- Works locally with **Llama 3.2**, **nomic-embed-text**, **LangChain**, and **Chroma**.
+- Works locally with **Ollama**, **LangChain**, and **Chroma**.
 
 ---
 
@@ -44,6 +44,10 @@ It uses **retrieval-augmented generation (RAG)** powered by a local **Ollama LLM
    ```
 
 4. Make sure you have [Ollama](https://ollama.ai/) installed and the required models (`llama3.2` and `nomic-embed-text`) available.
+```bash
+   ollama pull llama3.2:3b
+   ollama pull nomic-embed-text
+   ```
 
 ---
 
@@ -59,5 +63,5 @@ You’ll be prompted to provide the path to your codebase, then you can start ch
 ```bash
 python uichat.py
 ```
-You’ll be prompted to provide the path to your codebase, then you can start chatting with it directly from your terminal. This will launch a *Gradio* browser interface with syntax highlighting.
+You’ll be prompted to provide the path to your codebase. This will launch a *Gradio* browser interface with syntax highlighting.
 
