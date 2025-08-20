@@ -24,11 +24,13 @@ It uses **retrieval-augmented generation (RAG)** powered by a local **Ollama LLM
 ---
 
 ## 🛠️ Installation
-Ensure you have Git installed on your computer! Use
-```bash
-git --version
-```
-in cmd/terminal to ensure git is working. If not, use git bash.
+0. Ensure you have Git installed on your computer! 
+    Use
+    ```bash
+    git --version
+    ```
+    in cmd/terminal to ensure git is working. If not, use git bash.
+
 1. Clone this repo:
    ```bash
    git clone https://github.com/nahl-f/CodebaseQnA.git
