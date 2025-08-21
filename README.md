@@ -72,8 +72,9 @@ python uichat.py
 You’ll be prompted to provide the path to your codebase. This will launch a *Gradio* browser interface with syntax highlighting.
 
 ## 📚 Examples
-###Terminal UI
+**Terminal UI**
 <img width="1918" height="1198" alt="Image" src="Images/terminal pic.png" />
-###Gradio UI
+
+**Gradio UI**
 <img width="1918" height="1090" alt="Image" src="Images/GradioUI.png" />
 
