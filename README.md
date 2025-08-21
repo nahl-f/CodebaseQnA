@@ -58,7 +58,7 @@ It uses **retrieval-augmented generation (RAG)** powered by a local **Ollama LLM
 ---
 
 ## 💻 Usage
-
+Navigate to the /src file using the terminal then run:
 ### CLI (terminal chat)
 ```bash
 python chat.py
