@@ -72,4 +72,4 @@ python uichat.py
 You’ll be prompted to provide the path to your codebase. This will launch a *Gradio* browser interface with syntax highlighting.
 
 ## 📚 Examples
-![Example Image](terminal pic.png)
+<img width="1918" height="1198" alt="Image" src="terminal pic.png" />
